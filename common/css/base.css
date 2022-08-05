@@ -1573,16 +1573,26 @@ p {
 	text-indent: 2em;
 }
 
+hr {
+	margin: 50px 0;
+}
+
 /* Hyperlinks on main page */
 .novel_top_right a {
 	font-size: inherit;
 }
 
-/* Table of content title on main page*/
+/* Table of content title on main page */
 .novel_index_style1 {
 	text-indent: 0;
 }
 
-hr {
-	margin: 50px 0;
+/* Lists on main page */
+.novel_top_right ul {
+	padding-left: 2em;
+	font-size: inherit;  
+}
+.novel_top_right li {
+    list-style-type: disc;
+	font-size: inherit;
 }
