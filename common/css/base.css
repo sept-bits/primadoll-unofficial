@@ -1567,7 +1567,7 @@ color:#f39c12;
 
 
 
-p {
+.novel_main_box p {
 	font-size: 18px;
 	line-height: 38px;
 	text-indent: 2em;
@@ -1583,9 +1583,9 @@ hr {
 }
 
 /* Table of content title on main page */
-.novel_index_style1 {
-	text-indent: 0;
-}
+/* .novel_index_style1 { */
+	/* text-indent: 0; */
+/* } */
 
 /* Lists on main page */
 .novel_top_right ul {
@@ -1595,4 +1595,8 @@ hr {
 .novel_top_right li {
     list-style-type: disc;
 	font-size: inherit;
+}
+
+.novel_main_title_author p{
+	font-size: 18px;
 }
